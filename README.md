@@ -135,6 +135,8 @@ You can configure Prometheus using Docker service discovery with the following l
 - `prometheus_address`: e.g. `netbox-docker-agent:1880`  
   The target address (host:port) that Prometheus will use to scrape metrics.
 
+For more information check the config example on https://github.com/SaaShup/prometheus
+
 ## Logs
 Currently all logs are send to stdout, if netbox send an error message to the agent.
 
