@@ -1,1 +1,1 @@
-{"netbox_url":"http://localhost:8000","netbox_token":"nbt_.","ui":1,"flows":"0","id":"45","endpoint":"http://admin:saashup@192.168.10.34:1880"}
+{ "netbox_url": "", "netbox_token": "", "ui": 1, "id": "", "endpoint": "", "flows": "0" }
