@@ -313,8 +313,7 @@
         "y": 920,
         "wires": [
             [
-                "7c210c45ea82059e",
-                "7a8244b04415816f"
+                "7c210c45ea82059e"
             ],
             [],
             [
@@ -1362,8 +1361,7 @@
         "y": 880,
         "wires": [
             [
-                "54b665fab6649cfe",
-                "c0f0f8389fad7797"
+                "54b665fab6649cfe"
             ]
         ]
     },
@@ -1442,8 +1440,7 @@
         "y": 940,
         "wires": [
             [
-                "d8839cfa921a2951",
-                "ec9bdd1b913b15b9"
+                "d8839cfa921a2951"
             ]
         ]
     },
@@ -1468,8 +1465,7 @@
         "y": 940,
         "wires": [
             [
-                "414653028bcbc955",
-                "d039752f81629f79"
+                "414653028bcbc955"
             ]
         ]
     },
@@ -1689,74 +1685,6 @@
                 "46148a6db99e8a8e"
             ]
         ]
-    },
-    {
-        "id": "ec9bdd1b913b15b9",
-        "type": "debug",
-        "z": "216db6efc0df9bc0",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2680,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "d039752f81629f79",
-        "type": "debug",
-        "z": "216db6efc0df9bc0",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2380,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "7a8244b04415816f",
-        "type": "debug",
-        "z": "216db6efc0df9bc0",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 680,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "c0f0f8389fad7797",
-        "type": "debug",
-        "z": "216db6efc0df9bc0",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2720,
-        "y": 820,
-        "wires": []
     },
     {
         "id": "e974d3bd502f614f",
@@ -2867,7 +2795,8 @@
         "y": 660,
         "wires": [
             [
-                "253ff620fcf27838"
+                "253ff620fcf27838",
+                "3c4e30b1781a4d11"
             ]
         ]
     },
@@ -3535,6 +3464,23 @@
         ]
     },
     {
+        "id": "3c4e30b1781a4d11",
+        "type": "debug",
+        "z": "3ea1a4b04d852f38",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 720,
+        "wires": []
+    },
+    {
         "id": "91e25dba31c28805",
         "type": "http in",
         "z": "a827fd671d6a227e",
@@ -3597,24 +3543,13 @@
         "x": 800,
         "y": 500,
         "wires": [
-            [
-                "4de06d76878cdbd0"
-            ],
-            [
-                "3c46077f2f10a641"
-            ],
-            [
-                "2efc622d38ebd4aa"
-            ],
-            [
-                "840619e239d214aa"
-            ],
+            [],
+            [],
+            [],
+            [],
             [],
             [
-                "840619e239d214aa",
-                "2efc622d38ebd4aa",
                 "3c46077f2f10a641",
-                "4de06d76878cdbd0",
                 "70c57a4688add144",
                 "7a4d9d8b863a0612"
             ]
@@ -3843,7 +3778,8 @@
         "y": 480,
         "wires": [
             [
-                "eac6a267ba1d8eaf"
+                "eac6a267ba1d8eaf",
+                "35049d6e39fbdb43"
             ]
         ]
     },
@@ -3957,7 +3893,8 @@
         "y": 360,
         "wires": [
             [
-                "2b11dfa028894e68"
+                "2b11dfa028894e68",
+                "1daeb0a1455a45ba"
             ]
         ]
     },
@@ -4041,31 +3978,6 @@
         "wires": [
             [
                 "03079290b974e3ec"
-            ]
-        ]
-    },
-    {
-        "id": "4de06d76878cdbd0",
-        "type": "delay",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "10",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 220,
-        "wires": [
-            [
-                "df268a4a9955ef48"
             ]
         ]
     },
@@ -4241,23 +4153,6 @@
             [],
             [
                 "c9f9930a51ca8c8f"
-            ]
-        ]
-    },
-    {
-        "id": "736fb3433484e657",
-        "type": "http in",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "url": "/api/containers",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1250,
-        "y": 160,
-        "wires": [
-            [
-                "df268a4a9955ef48"
             ]
         ]
     },
@@ -4568,23 +4463,6 @@
         ]
     },
     {
-        "id": "1649d9a702989caf",
-        "type": "http in",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "url": "/api/images",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1240,
-        "y": 520,
-        "wires": [
-            [
-                "840619e239d214aa"
-            ]
-        ]
-    },
-    {
         "id": "0900cd90c6af5e59",
         "type": "switch",
         "z": "a827fd671d6a227e",
@@ -4643,23 +4521,6 @@
         ]
     },
     {
-        "id": "b281d91de2634af5",
-        "type": "http in",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "url": "/api/networks",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1250,
-        "y": 400,
-        "wires": [
-            [
-                "2efc622d38ebd4aa"
-            ]
-        ]
-    },
-    {
         "id": "6ebef0d1eb0f7066",
         "type": "switch",
         "z": "a827fd671d6a227e",
@@ -4700,23 +4561,6 @@
         "x": 1850,
         "y": 440,
         "wires": []
-    },
-    {
-        "id": "e4c31d1d3fae99f0",
-        "type": "http in",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "url": "/api/volumes",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1240,
-        "y": 280,
-        "wires": [
-            [
-                "3c46077f2f10a641"
-            ]
-        ]
     },
     {
         "id": "ff1efcf6edbac8aa",
@@ -4879,8 +4723,8 @@
         "links": [
             "36f439d2ba0ac71a"
         ],
-        "x": 2655,
-        "y": 360,
+        "x": 2685,
+        "y": 320,
         "wires": []
     },
     {
@@ -4893,7 +4737,7 @@
             "36f439d2ba0ac71a"
         ],
         "x": 2455,
-        "y": 480,
+        "y": 440,
         "wires": []
     },
     {
@@ -4905,7 +4749,7 @@
         "links": [
             "36f439d2ba0ac71a"
         ],
-        "x": 1715,
+        "x": 1725,
         "y": 940,
         "wires": []
     },
@@ -5224,22 +5068,6 @@
         ]
     },
     {
-        "id": "000871bc55201301",
-        "type": "link in",
-        "z": "a827fd671d6a227e",
-        "name": "Create Networks",
-        "links": [
-            "86e79ca6ba19c6d7"
-        ],
-        "x": 1095,
-        "y": 420,
-        "wires": [
-            [
-                "2efc622d38ebd4aa"
-            ]
-        ]
-    },
-    {
         "id": "279f02a6712c7399",
         "type": "link in",
         "z": "a827fd671d6a227e",
@@ -5256,22 +5084,6 @@
         ]
     },
     {
-        "id": "e4bc72db316a3ba0",
-        "type": "link in",
-        "z": "a827fd671d6a227e",
-        "name": "Create Containers",
-        "links": [
-            "86e79ca6ba19c6d7"
-        ],
-        "x": 915,
-        "y": 180,
-        "wires": [
-            [
-                "4de06d76878cdbd0"
-            ]
-        ]
-    },
-    {
         "id": "4d752b3ed43f85c0",
         "type": "link in",
         "z": "a827fd671d6a227e",
@@ -5284,77 +5096,6 @@
         "wires": [
             [
                 "7a4d9d8b863a0612"
-            ]
-        ]
-    },
-    {
-        "id": "fca744c188c37382",
-        "type": "link in",
-        "z": "a827fd671d6a227e",
-        "name": "Create Images",
-        "links": [
-            "86e79ca6ba19c6d7"
-        ],
-        "x": 1095,
-        "y": 620,
-        "wires": [
-            [
-                "840619e239d214aa"
-            ]
-        ]
-    },
-    {
-        "id": "97877b8f5f5daed0",
-        "type": "http in",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "url": "/api/registries",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1270,
-        "y": 760,
-        "wires": [
-            [
-                "583d67e7c102474e"
-            ]
-        ]
-    },
-    {
-        "id": "894f65a81c2cdb87",
-        "type": "http response",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1670,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "583d67e7c102474e",
-        "type": "change",
-        "z": "a827fd671d6a227e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "registries",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1490,
-        "y": 760,
-        "wires": [
-            [
-                "894f65a81c2cdb87"
             ]
         ]
     },
@@ -5660,7 +5401,8 @@
         "y": 700,
         "wires": [
             [
-                "fd472ae11b597a19"
+                "fd472ae11b597a19",
+                "cff8a3b5098fb321"
             ]
         ]
     },
@@ -5673,7 +5415,7 @@
         "links": [
             "36f439d2ba0ac71a"
         ],
-        "x": 3485,
+        "x": 3495,
         "y": 700,
         "wires": []
     },
@@ -5915,6 +5657,601 @@
         "x": 705,
         "y": 340,
         "wires": []
+    },
+    {
+        "id": "4488c340663ed73b",
+        "type": "http in",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "url": "/api/containers",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1270,
+        "y": 1440,
+        "wires": [
+            [
+                "5bee57fd9157e420"
+            ]
+        ]
+    },
+    {
+        "id": "5bee57fd9157e420",
+        "type": "exec",
+        "z": "a827fd671d6a227e",
+        "command": "curl -s -X GET --unix-socket /var/run/docker.sock http://localhost/containers/json?all=1",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "docker api request: list containers",
+        "x": 1320,
+        "y": 1500,
+        "wires": [
+            [
+                "6f460f604bf4cdf7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6f460f604bf4cdf7",
+        "type": "switch",
+        "z": "a827fd671d6a227e",
+        "name": "was empty?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1550,
+        "y": 1500,
+        "wires": [
+            [
+                "b5cb394df9549179"
+            ],
+            [
+                "0d1fe8f6142b2ee3"
+            ]
+        ]
+    },
+    {
+        "id": "b5cb394df9549179",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "403",
+        "headers": {},
+        "x": 1720,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "0d1fe8f6142b2ee3",
+        "type": "json",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 1710,
+        "y": 1520,
+        "wires": [
+            [
+                "751f29f62e8c9b3f"
+            ]
+        ]
+    },
+    {
+        "id": "751f29f62e8c9b3f",
+        "type": "switch",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1870,
+        "y": 1520,
+        "wires": [
+            [
+                "2612dce9bfbc889d"
+            ],
+            [
+                "9c701b5a26eb053f"
+            ]
+        ]
+    },
+    {
+        "id": "2612dce9bfbc889d",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2030,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "9c701b5a26eb053f",
+        "type": "split",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 2030,
+        "y": 1540,
+        "wires": [
+            [
+                "99b9b6c293d8040d"
+            ]
+        ]
+    },
+    {
+        "id": "99b9b6c293d8040d",
+        "type": "change",
+        "z": "a827fd671d6a227e",
+        "name": "prepare docker api request",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "post",
+                "pt": "msg",
+                "to": "\"http://localhost/containers/\" & $string(msg.result.Id) & \"/json -H 'content-type: application/json'\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 1620,
+        "wires": [
+            [
+                "f14aa976bb356172"
+            ]
+        ]
+    },
+    {
+        "id": "f14aa976bb356172",
+        "type": "exec",
+        "z": "a827fd671d6a227e",
+        "command": "curl -X GET --unix-socket /var/run/docker.sock",
+        "addpay": "post",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "docker api request: inspect containers",
+        "x": 1610,
+        "y": 1620,
+        "wires": [
+            [
+                "1c7f7f358bb5fbc6"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1c7f7f358bb5fbc6",
+        "type": "json",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 1850,
+        "y": 1620,
+        "wires": [
+            [
+                "782fe948673044f4"
+            ]
+        ]
+    },
+    {
+        "id": "782fe948673044f4",
+        "type": "join",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1990,
+        "y": 1620,
+        "wires": [
+            [
+                "8455281980f16b41"
+            ]
+        ]
+    },
+    {
+        "id": "8455281980f16b41",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2130,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "7f1c812d4a047cd7",
+        "type": "http in",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "url": "/api/volumes",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1270,
+        "y": 1740,
+        "wires": [
+            [
+                "4065ce5834917642"
+            ]
+        ]
+    },
+    {
+        "id": "4065ce5834917642",
+        "type": "exec",
+        "z": "a827fd671d6a227e",
+        "command": "curl -X GET --unix-socket /var/run/docker.sock http://localhost/volumes",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "docker api request: list volumes",
+        "x": 1310,
+        "y": 1800,
+        "wires": [
+            [
+                "29ae9935f413deab"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "29ae9935f413deab",
+        "type": "json",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1550,
+        "y": 1800,
+        "wires": [
+            [
+                "9212d2960fc99971"
+            ]
+        ]
+    },
+    {
+        "id": "9212d2960fc99971",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1690,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "0173bf6bb3a58ebf",
+        "type": "http in",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "url": "/api/networks",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1270,
+        "y": 1920,
+        "wires": [
+            [
+                "ded8762f2270c8ca"
+            ]
+        ]
+    },
+    {
+        "id": "ded8762f2270c8ca",
+        "type": "exec",
+        "z": "a827fd671d6a227e",
+        "command": "curl -X GET --unix-socket /var/run/docker.sock http://localhost/networks",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "docker api request: list networks",
+        "x": 1320,
+        "y": 1980,
+        "wires": [
+            [
+                "025d8d1548492dae"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "025d8d1548492dae",
+        "type": "json",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1550,
+        "y": 1980,
+        "wires": [
+            [
+                "842d19e290bd68e1"
+            ]
+        ]
+    },
+    {
+        "id": "842d19e290bd68e1",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1690,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "c5ff71cf8bf0b5ed",
+        "type": "http in",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "url": "/api/images",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1260,
+        "y": 2080,
+        "wires": [
+            [
+                "2390a33e530cd216"
+            ]
+        ]
+    },
+    {
+        "id": "2390a33e530cd216",
+        "type": "exec",
+        "z": "a827fd671d6a227e",
+        "command": "curl -X GET --unix-socket /var/run/docker.sock http://localhost/images/json?digests=true",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "docker api request: list images",
+        "x": 1310,
+        "y": 2140,
+        "wires": [
+            [
+                "5738dd3754cffe7d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5738dd3754cffe7d",
+        "type": "json",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1550,
+        "y": 2140,
+        "wires": [
+            [
+                "8b55ea49d8d7ea28"
+            ]
+        ]
+    },
+    {
+        "id": "8b55ea49d8d7ea28",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1690,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "97877b8f5f5daed0",
+        "type": "http in",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "url": "/api/registries",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1270,
+        "y": 2240,
+        "wires": [
+            [
+                "583d67e7c102474e"
+            ]
+        ]
+    },
+    {
+        "id": "894f65a81c2cdb87",
+        "type": "http response",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1670,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "583d67e7c102474e",
+        "type": "change",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "registries",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1490,
+        "y": 2240,
+        "wires": [
+            [
+                "894f65a81c2cdb87"
+            ]
+        ]
+    },
+    {
+        "id": "cff8a3b5098fb321",
+        "type": "join",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 3530,
+        "y": 760,
+        "wires": [
+            [
+                "df268a4a9955ef48"
+            ]
+        ]
+    },
+    {
+        "id": "1daeb0a1455a45ba",
+        "type": "join",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 2710,
+        "y": 360,
+        "wires": [
+            [
+                "2efc622d38ebd4aa"
+            ]
+        ]
+    },
+    {
+        "id": "35049d6e39fbdb43",
+        "type": "join",
+        "z": "a827fd671d6a227e",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 2510,
+        "y": 480,
+        "wires": [
+            [
+                "840619e239d214aa"
+            ]
+        ]
     },
     {
         "id": "dcf35b57666a30f9",
